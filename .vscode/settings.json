@@ -1,0 +1,4 @@
+{
+    "files.insertFinalNewline": true,
+    "npm.packageManager": "yarn"
+}

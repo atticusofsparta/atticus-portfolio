@@ -13,8 +13,8 @@ interface ProjectCardProps {
 
 export default function ProjectCard({ title, description, image, link, tags }: ProjectCardProps) {
   return (
-    <Card className="overflow-hidden">
-      <div className="relative aspect-video">
+    <Card className="overflow-hidden justify-between flex flex-col">
+      <div className="relative aspect-video h-1/2 border-b">
         <Image
           src={image || "/placeholder.svg"}
           alt={title}
@@ -22,9 +22,12 @@ export default function ProjectCard({ title, description, image, link, tags }: P
           className="object-cover transition-transform hover:scale-105"
         />
       </div>
-      <CardContent className="p-4">
+      <CardContent className="p-4 h-2/5 flex flex-col justify-between">
+      <div>
         <h3 className="font-semibold text-xl mb-2">{title}</h3>
         <p className="text-sm text-muted-foreground mb-4">{description}</p>
+        </div>
+
         <div className="flex flex-wrap gap-2">
           {tags.map((tag) => (
             <span

@@ -9,6 +9,11 @@ const config: Config = {
     "*.{js,ts,jsx,tsx,mdx}"
   ],
   theme: {
+	colors:{
+		transparent: 'transparent',
+      	'gradient-primary-start': '#16a43b',
+      	'gradient-primary-end': '#0f5822',
+	},
   	extend: {
   		colors: {
   			background: 'hsl(var(--background))',
@@ -60,7 +65,8 @@ const config: Config = {
   				'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
   				border: 'hsl(var(--sidebar-border))',
   				ring: 'hsl(var(--sidebar-ring))'
-  			}
+  			},
+			
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
@@ -88,9 +94,15 @@ const config: Config = {
   		animation: {
   			'accordion-down': 'accordion-down 0.2s ease-out',
   			'accordion-up': 'accordion-up 0.2s ease-out'
-  		}
+  		},
+		fontFamily:{
+			sans: ['Cinzel Decorative', 'sans-serif']
+		}
   	}
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [
+	require('@tailwindcss/typography'),
+	require("tailwindcss-animate"),
+],
 };
 export default config;

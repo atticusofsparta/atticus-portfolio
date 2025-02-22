@@ -4,12 +4,14 @@ import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import "./globals.css"
 import type React from "react" // Import React
+import '@fontsource/cinzel-decorative';
 
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "John.dev - Full Stack Developer",
-  description: "Full stack developer portfolio showcasing projects and skills",
+  title: "Atticus - Full Stack Arweave Developer",
+  description: "Portfolio with goodies",
+  icons: '/pfp.png'
 }
 
 export default function RootLayout({
