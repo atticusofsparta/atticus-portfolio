@@ -1,0 +1,330 @@
+[    1090ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:21608
+[    1139ms] Error: `Tooltip` must be used within `TooltipProvider`
+    at useContext22 (http://localhost:5174/node_modules/.vite/deps/radix-ui.js?v=2fbf1dcc:402:13)
+    at Tooltip (http://localhost:5174/node_modules/.vite/deps/radix-ui.js?v=2fbf1dcc:15407:27)
+    at renderWithHooks (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:11596:26)
+    at mountIndeterminateComponent (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:14974:21)
+    at beginWork (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:15962:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:3680:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:3705:24)
+    at invokeGuardedCallback (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:3739:39)
+    at beginWork$1 (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:19818:15)
+    at performUnitOfWork (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:19251:20)
+[    1139ms] Error: `Tooltip` must be used within `TooltipProvider`
+    at useContext22 (http://localhost:5174/node_modules/.vite/deps/radix-ui.js?v=2fbf1dcc:402:13)
+    at Tooltip (http://localhost:5174/node_modules/.vite/deps/radix-ui.js?v=2fbf1dcc:15407:27)
+    at renderWithHooks (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:11596:26)
+    at mountIndeterminateComponent (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:14974:21)
+    at beginWork (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:15962:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:3680:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:3705:24)
+    at invokeGuardedCallback (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:3739:39)
+    at beginWork$1 (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:19818:15)
+    at performUnitOfWork (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:19251:20)
+[    1139ms] Error: `Tooltip` must be used within `TooltipProvider`
+    at useContext22 (http://localhost:5174/node_modules/.vite/deps/radix-ui.js?v=2fbf1dcc:402:13)
+    at Tooltip (http://localhost:5174/node_modules/.vite/deps/radix-ui.js?v=2fbf1dcc:15407:27)
+    at renderWithHooks (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:11596:26)
+    at mountIndeterminateComponent (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:14974:21)
+    at beginWork (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:15962:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:3680:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:3705:24)
+    at invokeGuardedCallback (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:3739:39)
+    at beginWork$1 (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:19818:15)
+    at performUnitOfWork (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:19251:20)
+[    1139ms] Error: `Tooltip` must be used within `TooltipProvider`
+    at useContext22 (http://localhost:5174/node_modules/.vite/deps/radix-ui.js?v=2fbf1dcc:402:13)
+    at Tooltip (http://localhost:5174/node_modules/.vite/deps/radix-ui.js?v=2fbf1dcc:15407:27)
+    at renderWithHooks (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:11596:26)
+    at mountIndeterminateComponent (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:14974:21)
+    at beginWork (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:15962:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:3680:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:3705:24)
+    at invokeGuardedCallback (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:3739:39)
+    at beginWork$1 (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:19818:15)
+    at performUnitOfWork (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:19251:20)
+[    1139ms] Error: `Tooltip` must be used within `TooltipProvider`
+    at useContext22 (http://localhost:5174/node_modules/.vite/deps/radix-ui.js?v=2fbf1dcc:402:13)
+    at Tooltip (http://localhost:5174/node_modules/.vite/deps/radix-ui.js?v=2fbf1dcc:15407:27)
+    at renderWithHooks (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:11596:26)
+    at mountIndeterminateComponent (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:14974:21)
+    at beginWork (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:15962:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:3680:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:3705:24)
+    at invokeGuardedCallback (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:3739:39)
+    at beginWork$1 (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:19818:15)
+    at performUnitOfWork (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:19251:20)
+[    1139ms] Error: `Tooltip` must be used within `TooltipProvider`
+    at useContext22 (http://localhost:5174/node_modules/.vite/deps/radix-ui.js?v=2fbf1dcc:402:13)
+    at Tooltip (http://localhost:5174/node_modules/.vite/deps/radix-ui.js?v=2fbf1dcc:15407:27)
+    at renderWithHooks (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:11596:26)
+    at mountIndeterminateComponent (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:14974:21)
+    at beginWork (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:15962:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:3680:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:3705:24)
+    at invokeGuardedCallback (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:3739:39)
+    at beginWork$1 (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:19818:15)
+    at performUnitOfWork (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:19251:20)
+[    1139ms] Error: `Tooltip` must be used within `TooltipProvider`
+    at useContext22 (http://localhost:5174/node_modules/.vite/deps/radix-ui.js?v=2fbf1dcc:402:13)
+    at Tooltip (http://localhost:5174/node_modules/.vite/deps/radix-ui.js?v=2fbf1dcc:15407:27)
+    at renderWithHooks (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:11596:26)
+    at mountIndeterminateComponent (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:14974:21)
+    at beginWork (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:15962:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:3680:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:3705:24)
+    at invokeGuardedCallback (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:3739:39)
+    at beginWork$1 (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:19818:15)
+    at performUnitOfWork (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:19251:20)
+[    1140ms] Error: `Tooltip` must be used within `TooltipProvider`
+    at useContext22 (http://localhost:5174/node_modules/.vite/deps/radix-ui.js?v=2fbf1dcc:402:13)
+    at Tooltip (http://localhost:5174/node_modules/.vite/deps/radix-ui.js?v=2fbf1dcc:15407:27)
+    at renderWithHooks (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:11596:26)
+    at mountIndeterminateComponent (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:14974:21)
+    at beginWork (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:15962:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:3680:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:3705:24)
+    at invokeGuardedCallback (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:3739:39)
+    at beginWork$1 (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:19818:15)
+    at performUnitOfWork (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:19251:20)
+[    1140ms] Error: `Tooltip` must be used within `TooltipProvider`
+    at useContext22 (http://localhost:5174/node_modules/.vite/deps/radix-ui.js?v=2fbf1dcc:402:13)
+    at Tooltip (http://localhost:5174/node_modules/.vite/deps/radix-ui.js?v=2fbf1dcc:15407:27)
+    at renderWithHooks (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:11596:26)
+    at mountIndeterminateComponent (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:14974:21)
+    at beginWork (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:15962:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:3680:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:3705:24)
+    at invokeGuardedCallback (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:3739:39)
+    at beginWork$1 (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:19818:15)
+    at performUnitOfWork (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:19251:20)
+[    1140ms] Error: `Tooltip` must be used within `TooltipProvider`
+    at useContext22 (http://localhost:5174/node_modules/.vite/deps/radix-ui.js?v=2fbf1dcc:402:13)
+    at Tooltip (http://localhost:5174/node_modules/.vite/deps/radix-ui.js?v=2fbf1dcc:15407:27)
+    at renderWithHooks (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:11596:26)
+    at mountIndeterminateComponent (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:14974:21)
+    at beginWork (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:15962:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:3680:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:3705:24)
+    at invokeGuardedCallback (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:3739:39)
+    at beginWork$1 (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:19818:15)
+    at performUnitOfWork (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:19251:20)
+[    1140ms] Error: `Tooltip` must be used within `TooltipProvider`
+    at useContext22 (http://localhost:5174/node_modules/.vite/deps/radix-ui.js?v=2fbf1dcc:402:13)
+    at Tooltip (http://localhost:5174/node_modules/.vite/deps/radix-ui.js?v=2fbf1dcc:15407:27)
+    at renderWithHooks (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:11596:26)
+    at mountIndeterminateComponent (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:14974:21)
+    at beginWork (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:15962:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:3680:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:3705:24)
+    at invokeGuardedCallback (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:3739:39)
+    at beginWork$1 (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:19818:15)
+    at performUnitOfWork (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:19251:20)
+[    1140ms] Error: `Tooltip` must be used within `TooltipProvider`
+    at useContext22 (http://localhost:5174/node_modules/.vite/deps/radix-ui.js?v=2fbf1dcc:402:13)
+    at Tooltip (http://localhost:5174/node_modules/.vite/deps/radix-ui.js?v=2fbf1dcc:15407:27)
+    at renderWithHooks (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:11596:26)
+    at mountIndeterminateComponent (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:14974:21)
+    at beginWork (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:15962:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:3680:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:3705:24)
+    at invokeGuardedCallback (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:3739:39)
+    at beginWork$1 (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:19818:15)
+    at performUnitOfWork (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:19251:20)
+[    1126ms] [ERROR] The above error occurred in the <Tooltip> component:
+
+    at Tooltip (http://localhost:5174/node_modules/.vite/deps/radix-ui.js?v=2fbf1dcc:15399:5)
+    at Tooltip (http://localhost:5174/components/ui/tooltip.tsx:43:6)
+    at SidebarMenuButton (http://localhost:5174/components/ui/sidebar.tsx:690:3)
+    at li
+    at SidebarMenuItem (http://localhost:5174/components/ui/sidebar.tsx:649:28)
+    at ul
+    at SidebarMenu (http://localhost:5174/components/ui/sidebar.tsx:629:24)
+    at div
+    at SidebarGroupContent (http://localhost:5174/components/ui/sidebar.tsx:607:3)
+    at div
+    at SidebarGroup (http://localhost:5174/components/ui/sidebar.tsx:530:25)
+    at div
+    at SidebarContent (http://localhost:5174/components/ui/sidebar.tsx:507:27)
+    at div
+    at div
+    at div
+    at Sidebar (http://localhost:5174/components/ui/sidebar.tsx:144:3)
+    at div
+    at SidebarProvider (http://localhost:5174/components/ui/sidebar.tsx:58:3)
+    at Studio (http://localhost:5174/src/pages/Studio.tsx:90:3)
+    at RenderedRoute (http://localhost:5174/node_modules/.vite/deps/react-router-dom.js?v=2fbf1dcc:6626:26)
+    at Routes (http://localhost:5174/node_modules/.vite/deps/react-router-dom.js?v=2fbf1dcc:7561:3)
+    at App
+    at MouseProvider (http://localhost:5174/src/hooks/useMouse.tsx:24:33)
+    at Router (http://localhost:5174/node_modules/.vite/deps/react-router-dom.js?v=2fbf1dcc:7500:13)
+    at BrowserRouter (http://localhost:5174/node_modules/.vite/deps/react-router-dom.js?v=2fbf1dcc:10787:3)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:5174/node_modules/.vite/deps/@react-three_fiber.js?v=2fbf1dcc:17715
+[    1126ms] [ERROR] The above error occurred in the <Tooltip> component:
+
+    at Tooltip (http://localhost:5174/node_modules/.vite/deps/radix-ui.js?v=2fbf1dcc:15399:5)
+    at Tooltip (http://localhost:5174/components/ui/tooltip.tsx:43:6)
+    at SidebarMenuButton (http://localhost:5174/components/ui/sidebar.tsx:690:3)
+    at li
+    at SidebarMenuItem (http://localhost:5174/components/ui/sidebar.tsx:649:28)
+    at ul
+    at SidebarMenu (http://localhost:5174/components/ui/sidebar.tsx:629:24)
+    at div
+    at SidebarGroupContent (http://localhost:5174/components/ui/sidebar.tsx:607:3)
+    at div
+    at SidebarGroup (http://localhost:5174/components/ui/sidebar.tsx:530:25)
+    at div
+    at SidebarContent (http://localhost:5174/components/ui/sidebar.tsx:507:27)
+    at div
+    at div
+    at div
+    at Sidebar (http://localhost:5174/components/ui/sidebar.tsx:144:3)
+    at div
+    at SidebarProvider (http://localhost:5174/components/ui/sidebar.tsx:58:3)
+    at Studio (http://localhost:5174/src/pages/Studio.tsx:90:3)
+    at RenderedRoute (http://localhost:5174/node_modules/.vite/deps/react-router-dom.js?v=2fbf1dcc:6626:26)
+    at Routes (http://localhost:5174/node_modules/.vite/deps/react-router-dom.js?v=2fbf1dcc:7561:3)
+    at App
+    at MouseProvider (http://localhost:5174/src/hooks/useMouse.tsx:24:33)
+    at Router (http://localhost:5174/node_modules/.vite/deps/react-router-dom.js?v=2fbf1dcc:7500:13)
+    at BrowserRouter (http://localhost:5174/node_modules/.vite/deps/react-router-dom.js?v=2fbf1dcc:10787:3)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:5174/node_modules/.vite/deps/@react-three_fiber.js?v=2fbf1dcc:17715
+[    1126ms] [ERROR] The above error occurred in the <Tooltip> component:
+
+    at Tooltip (http://localhost:5174/node_modules/.vite/deps/radix-ui.js?v=2fbf1dcc:15399:5)
+    at Tooltip (http://localhost:5174/components/ui/tooltip.tsx:43:6)
+    at SidebarMenuButton (http://localhost:5174/components/ui/sidebar.tsx:690:3)
+    at li
+    at SidebarMenuItem (http://localhost:5174/components/ui/sidebar.tsx:649:28)
+    at ul
+    at SidebarMenu (http://localhost:5174/components/ui/sidebar.tsx:629:24)
+    at div
+    at SidebarGroupContent (http://localhost:5174/components/ui/sidebar.tsx:607:3)
+    at div
+    at SidebarGroup (http://localhost:5174/components/ui/sidebar.tsx:530:25)
+    at div
+    at SidebarContent (http://localhost:5174/components/ui/sidebar.tsx:507:27)
+    at div
+    at div
+    at div
+    at Sidebar (http://localhost:5174/components/ui/sidebar.tsx:144:3)
+    at div
+    at SidebarProvider (http://localhost:5174/components/ui/sidebar.tsx:58:3)
+    at Studio (http://localhost:5174/src/pages/Studio.tsx:90:3)
+    at RenderedRoute (http://localhost:5174/node_modules/.vite/deps/react-router-dom.js?v=2fbf1dcc:6626:26)
+    at Routes (http://localhost:5174/node_modules/.vite/deps/react-router-dom.js?v=2fbf1dcc:7561:3)
+    at App
+    at MouseProvider (http://localhost:5174/src/hooks/useMouse.tsx:24:33)
+    at Router (http://localhost:5174/node_modules/.vite/deps/react-router-dom.js?v=2fbf1dcc:7500:13)
+    at BrowserRouter (http://localhost:5174/node_modules/.vite/deps/react-router-dom.js?v=2fbf1dcc:10787:3)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:5174/node_modules/.vite/deps/@react-three_fiber.js?v=2fbf1dcc:17715
+[    1126ms] [ERROR] The above error occurred in the <Tooltip> component:
+
+    at Tooltip (http://localhost:5174/node_modules/.vite/deps/radix-ui.js?v=2fbf1dcc:15399:5)
+    at Tooltip (http://localhost:5174/components/ui/tooltip.tsx:43:6)
+    at SidebarMenuButton (http://localhost:5174/components/ui/sidebar.tsx:690:3)
+    at li
+    at SidebarMenuItem (http://localhost:5174/components/ui/sidebar.tsx:649:28)
+    at ul
+    at SidebarMenu (http://localhost:5174/components/ui/sidebar.tsx:629:24)
+    at div
+    at SidebarGroupContent (http://localhost:5174/components/ui/sidebar.tsx:607:3)
+    at div
+    at SidebarGroup (http://localhost:5174/components/ui/sidebar.tsx:530:25)
+    at div
+    at SidebarContent (http://localhost:5174/components/ui/sidebar.tsx:507:27)
+    at div
+    at div
+    at div
+    at Sidebar (http://localhost:5174/components/ui/sidebar.tsx:144:3)
+    at div
+    at SidebarProvider (http://localhost:5174/components/ui/sidebar.tsx:58:3)
+    at Studio (http://localhost:5174/src/pages/Studio.tsx:90:3)
+    at RenderedRoute (http://localhost:5174/node_modules/.vite/deps/react-router-dom.js?v=2fbf1dcc:6626:26)
+    at Routes (http://localhost:5174/node_modules/.vite/deps/react-router-dom.js?v=2fbf1dcc:7561:3)
+    at App
+    at MouseProvider (http://localhost:5174/src/hooks/useMouse.tsx:24:33)
+    at Router (http://localhost:5174/node_modules/.vite/deps/react-router-dom.js?v=2fbf1dcc:7500:13)
+    at BrowserRouter (http://localhost:5174/node_modules/.vite/deps/react-router-dom.js?v=2fbf1dcc:10787:3)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:5174/node_modules/.vite/deps/@react-three_fiber.js?v=2fbf1dcc:17715
+[    1126ms] [ERROR] The above error occurred in the <Tooltip> component:
+
+    at Tooltip (http://localhost:5174/node_modules/.vite/deps/radix-ui.js?v=2fbf1dcc:15399:5)
+    at Tooltip (http://localhost:5174/components/ui/tooltip.tsx:43:6)
+    at SidebarMenuButton (http://localhost:5174/components/ui/sidebar.tsx:690:3)
+    at li
+    at SidebarMenuItem (http://localhost:5174/components/ui/sidebar.tsx:649:28)
+    at ul
+    at SidebarMenu (http://localhost:5174/components/ui/sidebar.tsx:629:24)
+    at div
+    at SidebarGroupContent (http://localhost:5174/components/ui/sidebar.tsx:607:3)
+    at div
+    at SidebarGroup (http://localhost:5174/components/ui/sidebar.tsx:530:25)
+    at div
+    at SidebarContent (http://localhost:5174/components/ui/sidebar.tsx:507:27)
+    at div
+    at div
+    at div
+    at Sidebar (http://localhost:5174/components/ui/sidebar.tsx:144:3)
+    at div
+    at SidebarProvider (http://localhost:5174/components/ui/sidebar.tsx:58:3)
+    at Studio (http://localhost:5174/src/pages/Studio.tsx:90:3)
+    at RenderedRoute (http://localhost:5174/node_modules/.vite/deps/react-router-dom.js?v=2fbf1dcc:6626:26)
+    at Routes (http://localhost:5174/node_modules/.vite/deps/react-router-dom.js?v=2fbf1dcc:7561:3)
+    at App
+    at MouseProvider (http://localhost:5174/src/hooks/useMouse.tsx:24:33)
+    at Router (http://localhost:5174/node_modules/.vite/deps/react-router-dom.js?v=2fbf1dcc:7500:13)
+    at BrowserRouter (http://localhost:5174/node_modules/.vite/deps/react-router-dom.js?v=2fbf1dcc:10787:3)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:5174/node_modules/.vite/deps/@react-three_fiber.js?v=2fbf1dcc:17715
+[    1126ms] [ERROR] The above error occurred in the <Tooltip> component:
+
+    at Tooltip (http://localhost:5174/node_modules/.vite/deps/radix-ui.js?v=2fbf1dcc:15399:5)
+    at Tooltip (http://localhost:5174/components/ui/tooltip.tsx:43:6)
+    at SidebarMenuButton (http://localhost:5174/components/ui/sidebar.tsx:690:3)
+    at li
+    at SidebarMenuItem (http://localhost:5174/components/ui/sidebar.tsx:649:28)
+    at ul
+    at SidebarMenu (http://localhost:5174/components/ui/sidebar.tsx:629:24)
+    at div
+    at SidebarGroupContent (http://localhost:5174/components/ui/sidebar.tsx:607:3)
+    at div
+    at SidebarGroup (http://localhost:5174/components/ui/sidebar.tsx:530:25)
+    at div
+    at SidebarContent (http://localhost:5174/components/ui/sidebar.tsx:507:27)
+    at div
+    at div
+    at div
+    at Sidebar (http://localhost:5174/components/ui/sidebar.tsx:144:3)
+    at div
+    at SidebarProvider (http://localhost:5174/components/ui/sidebar.tsx:58:3)
+    at Studio (http://localhost:5174/src/pages/Studio.tsx:90:3)
+    at RenderedRoute (http://localhost:5174/node_modules/.vite/deps/react-router-dom.js?v=2fbf1dcc:6626:26)
+    at Routes (http://localhost:5174/node_modules/.vite/deps/react-router-dom.js?v=2fbf1dcc:7561:3)
+    at App
+    at MouseProvider (http://localhost:5174/src/hooks/useMouse.tsx:24:33)
+    at Router (http://localhost:5174/node_modules/.vite/deps/react-router-dom.js?v=2fbf1dcc:7500:13)
+    at BrowserRouter (http://localhost:5174/node_modules/.vite/deps/react-router-dom.js?v=2fbf1dcc:10787:3)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:5174/node_modules/.vite/deps/@react-three_fiber.js?v=2fbf1dcc:17715
+[    1141ms] Error: `Tooltip` must be used within `TooltipProvider`
+    at useContext22 (http://localhost:5174/node_modules/.vite/deps/radix-ui.js?v=2fbf1dcc:402:13)
+    at Tooltip (http://localhost:5174/node_modules/.vite/deps/radix-ui.js?v=2fbf1dcc:15407:27)
+    at renderWithHooks (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:11596:26)
+    at mountIndeterminateComponent (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:14974:21)
+    at beginWork (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:15962:22)
+    at beginWork$1 (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:19806:22)
+    at performUnitOfWork (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:19251:20)
+    at workLoopSync (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:19190:13)
+    at renderRootSync (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:19169:15)
+    at recoverFromConcurrentError (http://localhost:5174/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=2fbf1dcc:18786:28)

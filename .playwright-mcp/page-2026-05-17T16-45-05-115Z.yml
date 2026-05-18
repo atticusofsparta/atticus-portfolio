@@ -1,0 +1,98 @@
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - link "atticus.daemongate.io" [ref=e7] [cursor=pointer]:
+      - /url: /
+      - img [ref=e8]
+      - generic [ref=e13]: atticus.daemongate.io
+    - generic [ref=e14]:
+      - generic [ref=e15]:
+        - generic [ref=e16]: Site
+        - list [ref=e18]:
+          - listitem [ref=e19]:
+            - link "Back to home" [ref=e20] [cursor=pointer]:
+              - /url: /
+              - img [ref=e21]
+              - generic [ref=e23]: Back to home
+          - listitem [ref=e24]:
+            - link "Blog" [ref=e25] [cursor=pointer]:
+              - /url: /blog
+              - img [ref=e26]
+              - generic [ref=e28]: Blog
+      - generic [ref=e29]:
+        - generic [ref=e30]: Tools
+        - list [ref=e32]:
+          - listitem [ref=e33]:
+            - button "Arweave Tx Inspector" [disabled]:
+              - img
+              - generic: Arweave Tx Inspector
+          - listitem [ref=e34]:
+            - button "AO Process Viewer" [disabled]:
+              - img
+              - generic: AO Process Viewer
+          - listitem [ref=e35]:
+            - button "Shamir Splitter" [disabled]:
+              - img
+              - generic: Shamir Splitter
+          - listitem [ref=e36]:
+            - button "Wallet Utils" [disabled]:
+              - img
+              - generic: Wallet Utils
+          - listitem [ref=e37]:
+            - button "Permaweb Uploader" [disabled]:
+              - img
+              - generic: Permaweb Uploader
+          - listitem [ref=e38]:
+            - button "AO Process Spawner" [disabled]:
+              - img
+              - generic: AO Process Spawner
+    - paragraph [ref=e40]: © 2025 atticusofsparta
+    - button "Toggle Sidebar" [ref=e41] [cursor=pointer]
+  - main [ref=e42]:
+    - generic [ref=e43]:
+      - button "Toggle Sidebar" [ref=e44] [cursor=pointer]:
+        - img
+        - generic [ref=e45]: Toggle Sidebar
+      - heading "Studio" [level=1] [ref=e46]
+    - generic [ref=e47]:
+      - generic [ref=e48]:
+        - img [ref=e50]
+        - generic [ref=e55]:
+          - heading "Overview" [level=2] [ref=e56]
+          - paragraph [ref=e57]: A personal dashboard for small tools and experiments around Arweave, AO, and the permaweb. Pick a module from the sidebar; more will land here over time.
+      - generic [ref=e58]:
+        - generic [ref=e60]:
+          - generic [ref=e61]:
+            - img [ref=e63]
+            - generic [ref=e68]: Soon
+          - generic [ref=e69]: Arweave Tx Inspector
+          - generic [ref=e70]: Look up transactions, tags, and bundles by ID.
+        - generic [ref=e73]:
+          - generic [ref=e74]:
+            - img [ref=e76]
+            - generic [ref=e86]: Soon
+          - generic [ref=e87]: AO Process Viewer
+          - generic [ref=e88]: Inspect AO process state, inbox, and outbox messages.
+        - generic [ref=e91]:
+          - generic [ref=e92]:
+            - img [ref=e94]
+            - generic [ref=e97]: Soon
+          - generic [ref=e98]: Shamir Splitter
+          - generic [ref=e99]: Split secrets into shares with Shamir's algorithm.
+        - generic [ref=e102]:
+          - generic [ref=e103]:
+            - img [ref=e105]
+            - generic [ref=e108]: Soon
+          - generic [ref=e109]: Wallet Utils
+          - generic [ref=e110]: Generate, inspect, and convert Arweave wallets.
+        - generic [ref=e113]:
+          - generic [ref=e114]:
+            - img [ref=e116]
+            - generic [ref=e119]: Soon
+          - generic [ref=e120]: Permaweb Uploader
+          - generic [ref=e121]: Drag-and-drop uploads to the permaweb with tags.
+        - generic [ref=e124]:
+          - generic [ref=e125]:
+            - img [ref=e127]
+            - generic [ref=e130]: Soon
+          - generic [ref=e131]: AO Process Spawner
+          - generic [ref=e132]: Spawn AO processes from a template and seed messages.
