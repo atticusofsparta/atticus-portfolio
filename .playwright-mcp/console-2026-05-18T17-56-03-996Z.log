@@ -1,0 +1,4 @@
+[     128ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-NGHL4ZZ5.js?v=73f5b3fa:21608
+[     243ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:5173/node_modules/.vite/deps/chunk-2A4MXNCW.js?v=73f5b3fa:746
+[     422ms] [ERROR] Failed to load resource: net::ERR_CERT_DATE_INVALID @ https://daemongate.io/AzM59q2tcYzkySUUZUN1HCwfKGVHi--71UdoIk5gPUE:0
+[     422ms] [ERROR] Failed to load resource: net::ERR_CERT_DATE_INVALID @ https://daemongate.io/oDSg_8Qmy8nHOgtS_77cxFTq3oytZ7TBbu0ntGv3Xas:0

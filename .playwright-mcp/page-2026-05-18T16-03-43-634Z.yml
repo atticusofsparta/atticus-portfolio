@@ -1,0 +1,169 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - link "atticus.daemongate.io" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e8]: atticus.daemongate.io
+      - navigation [ref=e9]:
+        - link "About" [ref=e10] [cursor=pointer]:
+          - /url: "#about"
+        - link "Projects" [ref=e11] [cursor=pointer]:
+          - /url: "#projects"
+        - link "Blog" [ref=e12] [cursor=pointer]:
+          - /url: /blog
+        - link "Studio" [ref=e13] [cursor=pointer]:
+          - /url: /studio
+  - main [ref=e14]:
+    - generic [ref=e20]:
+      - heading "~ Atticus ~" [level=1] [ref=e21]
+      - paragraph [ref=e22]: Expanding the frontier of the permaweb and digital cyberspace.
+      - generic [ref=e23]:
+        - link "GitHub" [ref=e24] [cursor=pointer]:
+          - /url: https://github.com/atticusofsparta
+          - button "GitHub" [ref=e25]:
+            - img
+            - generic [ref=e26]: GitHub
+        - link "Twitter" [ref=e27] [cursor=pointer]:
+          - /url: https://twitter.com/SanOfABee
+          - button "Twitter" [ref=e28]:
+            - img
+            - generic [ref=e29]: Twitter
+    - generic [ref=e32]:
+      - img "Atticus" [ref=e33]
+      - generic [ref=e34]:
+        - heading "About" [level=2] [ref=e35]
+        - paragraph [ref=e36]: Full Stack Arweave Developer building on the permaweb. I work on SDKs, decentralized applications, and tools for the AO ecosystem. Passionate about permanent storage, censorship-resistant infrastructure, and pushing the boundaries of what's possible on-chain.
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - heading "Recent Posts" [level=2] [ref=e40]
+        - link "View all" [ref=e41] [cursor=pointer]:
+          - /url: /blog
+          - text: View all
+          - img [ref=e42]
+      - generic [ref=e44]:
+        - link [ref=e45] [cursor=pointer]:
+          - /url: /blog/welcome-to-the-blogs
+          - article [ref=e46]:
+            - time [ref=e47]: 5 months ago
+            - heading "Welcome to The Blogs ✨" [level=3] [ref=e48]
+            - paragraph [ref=e49]: Hello fellow builder! I built this site using React, Next.js and Tailwind CSS. Check out the source code on GitHub.
+            - generic [ref=e50]:
+              - generic [ref=e51]: development
+              - generic [ref=e52]: web
+        - link [ref=e53] [cursor=pointer]:
+          - /url: /blog/introducing-ao-sdk
+          - article [ref=e54]:
+            - time [ref=e55]: 6 months ago
+            - heading "Introducing the AO SDK 🚀" [level=3] [ref=e56]
+            - paragraph [ref=e57]: A powerful SDK for building services on the Arweave Operating System.
+            - generic [ref=e58]:
+              - generic [ref=e59]: AO
+              - generic [ref=e60]: SDK
+              - generic [ref=e61]: web
+        - link [ref=e62] [cursor=pointer]:
+          - /url: /blog/arweave-permanent-storage-explained
+          - article [ref=e63]:
+            - time [ref=e64]: 7 months ago
+            - heading "Understanding Arweave Permanent Storage 📦" [level=3] [ref=e65]
+            - paragraph [ref=e66]: A deep dive into how Arweave achieves true permanent storage and why it matters for the future of web.
+            - generic [ref=e67]:
+              - generic [ref=e68]: arweave
+              - generic [ref=e69]: blockchain
+              - generic [ref=e70]: storage
+    - generic [ref=e72]:
+      - heading "Projects" [level=2] [ref=e73]
+      - generic [ref=e74]:
+        - generic [ref=e75]:
+          - img "AO SDK" [ref=e77]
+          - generic [ref=e78]:
+            - generic [ref=e79]:
+              - heading "AO SDK" [level=3] [ref=e80]
+              - paragraph [ref=e81]: A solution for building AO services and tooling.
+            - generic [ref=e82]:
+              - generic [ref=e83]: SDK
+              - generic [ref=e84]: Arweave
+              - generic [ref=e85]: AO
+          - link "View on GitHub" [ref=e87] [cursor=pointer]:
+            - /url: https://github.com/project-kardeshev/ao-sdk
+            - img [ref=e88]
+            - text: View on GitHub
+        - generic [ref=e91]:
+          - img "Project Kardeshev" [ref=e93]
+          - generic [ref=e94]:
+            - generic [ref=e95]:
+              - heading "Project Kardeshev" [level=3] [ref=e96]
+              - paragraph [ref=e97]: A TODO list for humanity.
+            - generic [ref=e98]:
+              - generic [ref=e99]: Dashboard
+              - generic [ref=e100]: Bounties
+              - generic [ref=e101]: Arweave
+              - generic [ref=e102]: AO
+          - link "View on GitHub" [ref=e104] [cursor=pointer]:
+            - /url: https://github.com/project-kardeshev
+            - img [ref=e105]
+            - text: View on GitHub
+        - generic [ref=e108]:
+          - img "Secretorium" [ref=e110]
+          - generic [ref=e111]:
+            - generic [ref=e112]:
+              - heading "Secretorium" [level=3] [ref=e113]
+              - paragraph [ref=e114]: An on-chain secrets collaboration solution using private key encryption and shamir secret sharing.
+            - generic [ref=e115]:
+              - generic [ref=e116]: Shamir
+              - generic [ref=e117]: Encryption
+              - generic [ref=e118]: Arweave
+              - generic [ref=e119]: AO
+              - generic [ref=e120]: PWA
+          - link "View on GitHub" [ref=e122] [cursor=pointer]:
+            - /url: https://github.com/project-kardeshev/secretorium
+            - img [ref=e123]
+            - text: View on GitHub
+    - generic [ref=e127]:
+      - heading "Tech Stack" [level=2] [ref=e128]
+      - generic [ref=e129]:
+        - generic [ref=e130]:
+          - heading "Frontend" [level=3] [ref=e131]
+          - generic [ref=e132]:
+            - generic [ref=e133]: React
+            - generic [ref=e134]: TypeScript
+            - generic [ref=e135]: TailwindCSS
+            - generic [ref=e136]: Zustand
+            - generic [ref=e137]: GraphQL
+            - generic [ref=e138]: Vite
+            - generic [ref=e139]: Radix
+            - generic [ref=e140]: Shadcn
+            - generic [ref=e141]: Tanstack
+            - generic [ref=e142]: Crypto
+        - generic [ref=e143]:
+          - heading "Blockchain" [level=3] [ref=e144]
+          - generic [ref=e145]:
+            - generic [ref=e146]: Arweave
+            - generic [ref=e147]: AO
+            - generic [ref=e148]: Ethereum
+            - generic [ref=e149]: Solana
+            - generic [ref=e150]: Bitcoin
+        - generic [ref=e151]:
+          - heading "Backend" [level=3] [ref=e152]
+          - generic [ref=e153]:
+            - generic [ref=e154]: Node.js
+            - generic [ref=e155]: Express
+            - generic [ref=e156]: Koa
+        - generic [ref=e157]:
+          - heading "DevOps" [level=3] [ref=e158]
+          - generic [ref=e159]:
+            - generic [ref=e160]: Docker
+            - generic [ref=e161]: CI/CD
+            - generic [ref=e162]: Git
+            - generic [ref=e163]: Linux
+            - generic [ref=e164]: Nginx
+            - generic [ref=e165]: Grafana
+        - generic [ref=e166]:
+          - heading "Tools" [level=3] [ref=e167]
+          - generic [ref=e168]:
+            - generic [ref=e169]: VS Code
+            - generic [ref=e170]: Figma
+            - generic [ref=e171]: Jest
+            - generic [ref=e172]: GitHub
+            - generic [ref=e173]: ArNS
+  - contentinfo [ref=e174]:
+    - paragraph [ref=e176]: © 2025 atticusofsparta. All rights reserved.

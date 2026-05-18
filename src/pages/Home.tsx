@@ -1,42 +1,101 @@
 import { Link } from "react-router-dom"
+import { useEffect, useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { Github, Twitter, ArrowRight } from "lucide-react"
+import { Github, Twitter, ArrowRight, Menu, X } from "lucide-react"
 import ProjectCard from "@/src/components/ProjectCard"
 import TechStack from "@/src/components/TechStack"
 import StarGrid from "@/src/components/StarGrid"
 import { blogPosts } from "@/types/blog"
 import { formatDistanceToNow } from "date-fns"
 
+const navLinks: { label: string; href: string; external?: boolean }[] = [
+  { label: "About", href: "#about" },
+  { label: "Projects", href: "#projects" },
+  { label: "Blog", href: "/blog", external: true },
+  { label: "Studio", href: "/studio", external: true },
+]
+
 export default function Home() {
+  const [menuOpen, setMenuOpen] = useState(false)
+
+  useEffect(() => {
+    if (!menuOpen) return
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setMenuOpen(false)
+    }
+    window.addEventListener("keydown", onKey)
+    return () => window.removeEventListener("keydown", onKey)
+  }, [menuOpen])
+
   const recentPosts = [...blogPosts]
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
     .slice(0, 3)
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-black to-green-950">
-      <header className="sticky top-0 z-50 w-full border-b bg-gradient-to-br backdrop-blur-lg supports-[backdrop-filter]:bg-gradient-to-br from-transparent to-transparent">
+      <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-black/60 backdrop-blur-lg">
         <div className="container flex h-14 items-center justify-between max-w-screen-xl mx-auto px-4">
-          <div className="flex md:flex">
-            <Link className="mr-6 flex items-center space-x-2" to="/">
-              <span className="font-bold sm:inline-block">atticus.daemongate.io</span>
-            </Link>
-            <nav className="flex items-center space-x-6 text-sm font-medium">
-              <a href="#about" className="transition-colors hover:text-foreground/80">
-                About
-              </a>
-              <a href="#projects" className="transition-colors hover:text-foreground/80">
-                Projects
-              </a>
-              <Link to="/blog" className="transition-colors hover:text-foreground/80">
-                Blog
-              </Link>
-              <Link to="/studio" className="transition-colors hover:text-foreground/80">
-                Studio
-              </Link>
+          <Link className="flex items-center space-x-2" to="/" onClick={() => setMenuOpen(false)}>
+            <span className="font-bold">atticus.daemongate.io</span>
+          </Link>
+
+          <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
+            {navLinks.map((link) =>
+              link.external ? (
+                <Link key={link.href} to={link.href} className="transition-colors hover:text-foreground/80">
+                  {link.label}
+                </Link>
+              ) : (
+                <a key={link.href} href={link.href} className="transition-colors hover:text-foreground/80">
+                  {link.label}
+                </a>
+              )
+            )}
+          </nav>
+
+          <button
+            type="button"
+            onClick={() => setMenuOpen((v) => !v)}
+            aria-label={menuOpen ? "Close menu" : "Open menu"}
+            aria-expanded={menuOpen}
+            aria-controls="mobile-nav"
+            className="md:hidden inline-flex h-9 w-9 items-center justify-center rounded-md text-stone-200 hover:bg-stone-800/60 hover:text-green-400 transition-colors"
+          >
+            {menuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+          </button>
+        </div>
+
+        {menuOpen && (
+          <div
+            id="mobile-nav"
+            className="md:hidden border-t border-border/40 bg-black/90 backdrop-blur-lg"
+          >
+            <nav className="container max-w-screen-xl mx-auto px-4 py-3 flex flex-col text-sm font-medium">
+              {navLinks.map((link) =>
+                link.external ? (
+                  <Link
+                    key={link.href}
+                    to={link.href}
+                    onClick={() => setMenuOpen(false)}
+                    className="py-2.5 border-b border-border/20 last:border-b-0 text-stone-200 hover:text-green-400 transition-colors"
+                  >
+                    {link.label}
+                  </Link>
+                ) : (
+                  <a
+                    key={link.href}
+                    href={link.href}
+                    onClick={() => setMenuOpen(false)}
+                    className="py-2.5 border-b border-border/20 last:border-b-0 text-stone-200 hover:text-green-400 transition-colors"
+                  >
+                    {link.label}
+                  </a>
+                )
+              )}
             </nav>
           </div>
-        </div>
+        )}
       </header>
 
       <main className="max-w-screen-xl mx-auto bg-stone-950 rounded-lg my-5">
@@ -46,7 +105,7 @@ export default function Home() {
           <div className="relative z-10 py-20 md:py-32 lg:py-40" style={{ pointerEvents: "none" }}>
             <div className="container px-4 md:px-6">
               <div className="flex flex-col items-center text-center space-y-6" style={{ pointerEvents: "auto" }}>
-                <h1 className="text-3xl pl-[30px] tracking-[40px] font-bold font-heading bg-gradient-to-r from-gradient-primary-start to-gradient-primary-end bg-clip-text text-transparent">
+                <h1 className="text-xl tracking-[10px] pl-[8px] sm:text-2xl sm:tracking-[24px] sm:pl-[20px] md:text-3xl md:tracking-[40px] md:pl-[30px] font-bold font-heading bg-gradient-to-r from-gradient-primary-start to-gradient-primary-end bg-clip-text text-transparent">
                   ~ Atticus ~
                 </h1>
                 <p className="mx-auto max-w-[600px] text-gray-400 md:text-xl">
